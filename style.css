@@ -1,0 +1,33 @@
+.website_body{
+  background: #5699d2;
+}
+
+.titlerow {
+  background-color: white;
+  width: 100%;
+  margin: 0;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.fullcontainer {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.headshot {
+  width: 100%;
+}
+
+html, body {
+  height: 100%;
+}
+
+.edurow {
+  color: white;
+  padding-left: 20px;
+
+}
