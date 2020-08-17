@@ -1,3 +1,8 @@
+/* Backgroun color #5699d2
+   Extrustion color #d8ebf9
+*/
+
+
 .website_body{
   background: #5699d2;
 }
@@ -9,8 +14,8 @@
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 10px;
-  padding-bottom: 10px;
 }
+
 
 .fullcontainer {
   margin: 0;
@@ -29,5 +34,10 @@ html, body {
 .edurow {
   color: white;
   padding-left: 20px;
+}
+
+.sectionheader{
+  margin-left:10px;
+  color: white;
 
 }
