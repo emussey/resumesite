@@ -21,7 +21,8 @@
 .fullcontainer {
   margin: 0;
   padding: 0 0 10px 0;
-  width: 100%;
+  width: 85%;
+  float: right;
 }
 
 .headshot {
@@ -43,6 +44,7 @@ html, body {
   font-weight: 450;
   text-align: center;
   padding-bottom: 15px;
+  text-shadow: 2px 2px #F78700;
 }
 
 .schoolLogo {
@@ -60,7 +62,8 @@ html, body {
 .infocontainer {
   margin: 0;
   padding: 0 0 10px 0;
-  width: 100%;
+  width: 85%;
+  float: right;
 }
 
 .eduCards, .schoolCard{
@@ -92,4 +95,55 @@ html, body {
         width: 65%;
     }
 
+}
+
+
+.sidenav {
+  height: 100%;
+  width: 15%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #F78700;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: gray;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.menuitem {
+  margin-bottom: 10px;
+  line-height: 1.1;
+}
+
+
+@media screen and (max-width: 1050px) {
+  .sidenav {
+  display: none;
+}
+  .fullcontainer, .infocontainer {
+    width: 100%;
+  }
 }
