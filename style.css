@@ -1,11 +1,11 @@
 /* Backgroun color #5699d2
-   Extrustion color #d8ebf9
+Extrustion color #d8ebf9
 */
 
-
 .website_body{
-  background: #5699d2;
+  background: white;
   width: 100%;
+  padding-top:55px;
 }
 
 .titlerow {
@@ -16,7 +16,6 @@
   padding-right: 10%;
   padding-top: 10px;
 }
-
 
 .fullcontainer {
   margin: 0;
@@ -49,7 +48,6 @@ html, body {
 
 .schoolLogo {
   width: 80%;
-
 }
 
 .schoolCard{
@@ -64,6 +62,7 @@ html, body {
   padding: 0 0 10px 0;
   width: 100%;
   float: right;
+  background-color: #5699d2;
 }
 
 .eduCards, .schoolCard{
@@ -79,7 +78,6 @@ html, body {
 .schoolimagediv{
   text-align: center;
   padding: 10px 0 20px 0;
-
 }
 
 .bamalogo {
@@ -91,37 +89,10 @@ html, body {
 }
 
 @media screen and (min-width: 1250px) { /*The following CSS runs only for displays with a width (in pixels) of more than 800px*/
-    .eduCards, .schoolCard{
-        width: 65%;
-    }
-
+  .eduCards, .schoolCard{
+    width: 65%;
+  }
 }
-
-
-/*.sidenav {
-  height: 100%;
-  width: 15%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #F78700;
-  overflow-x: hidden;
-  padding-top: 20px;
-  border-right: 6px solid #094f8a;
-}
-
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: white;
-  display: block;
-}
-
-.sidenav a:hover {
-  color: gray;
-}*/
 
 .main {
   margin-left: 160px; /* Same as the width of the sidenav */
@@ -139,24 +110,58 @@ html, body {
   line-height: 1.1;
 }
 
-
 @media screen and (max-width: 1050px) {
   .sidenav {
-  display: none;
-}
+    display: none;
+  }
+
   .fullcontainer, .infocontainer {
     width: 100%;
   }
 }
 
 #musicid {
-background-color: white;
+  background-color: white;
+}
+
+.navbar {
+  background-color: #F78700;
+  text-align: center;
+  padding: 0;
+  border-bottom: 3px solid #094f8a;
+}
+
+ul {
+  list-style: none;
+}
+
+.nav-link:hover {
+color: #094f8a;
+
+}
+
+.nav-link{
+  color: white;
+  font-size: 1.6vmax;
+}
+
+.navbar-nav {
+  display: inline-block;
+  margin-bottom: 0;
+  padding-inline-start: 0;
 
 }
 
 
-.navbar {
-    background-color: #094f8a;
+@media screen and (max-width: 872px) {
+  .navbar {
 
+    display: none;
+  }
+
+  .website_body{
+
+    padding-top:0;
+  }
 
 }
