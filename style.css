@@ -14,7 +14,7 @@ Extrustion color #d8ebf9
   margin: 0;
   padding-left: 10%;
   padding-right: 10%;
-  padding-top: 10px;
+  padding-top: 15px;
 }
 
 .fullcontainer {
@@ -25,7 +25,7 @@ Extrustion color #d8ebf9
 }
 
 .headshot {
-  width: 75%;
+  width: 100%;
 }
 
 html, body {
@@ -46,8 +46,24 @@ html, body {
   text-shadow: 2px 2px #F78700;
 }
 
+.sectionheader2{
+  color: #F78700;
+  font-size: 26px;
+  font-weight: 450;
+  text-align: center;
+  padding-bottom: 15px;
+  text-shadow: 2px 2px #094f8a;
+}
+
 .schoolLogo {
   width: 80%;
+}
+
+.csCard{
+  background-color: #d8ebf9;
+  padding: 10px;
+  border: 5px solid #094f8a;
+  border-radius: 15px;
 }
 
 .schoolCard{
@@ -71,6 +87,12 @@ html, body {
   margin-right: auto;
 }
 
+.csWorkCards{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .classes {
   padding: 1.25rem;
 }
@@ -90,6 +112,9 @@ html, body {
 
 @media screen and (min-width: 1250px) { /*The following CSS runs only for displays with a width (in pixels) of more than 800px*/
   .eduCards, .schoolCard{
+    width: 65%;
+  }
+  .csWorkCards{
     width: 65%;
   }
 }
@@ -124,6 +149,17 @@ html, body {
   background-color: white;
 }
 
+#techid {
+  background-color: white;
+
+}
+
+#contact {
+  background-color: white;
+
+
+}
+
 .navbar {
   background-color: #F78700;
   text-align: center;
@@ -136,8 +172,7 @@ ul {
 }
 
 .nav-link:hover {
-color: #094f8a;
-
+  color: #094f8a;
 }
 
 .nav-link{
@@ -149,7 +184,6 @@ color: #094f8a;
   display: inline-block;
   margin-bottom: 0;
   padding-inline-start: 0;
-
 }
 
 
@@ -160,8 +194,55 @@ color: #094f8a;
   }
 
   .website_body{
-
     padding-top:0;
   }
+}
+
+.nameinfo {
+  text-align: center;
+}
+
+.contactmebutton {
+  text-align: center;
+}
+
+
+.topcontactbutton:hover{
+ color: #d8ebf9;
+ text-decoration: none;
+
+}
+
+
+.topcontactbutton {
+  text-align: center;
+  background-color: #094f8a;
+  color: white;
+  display: inline-block;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 5px;
+  box-shadow:5px 5px #5699d2;
+}
+
+.workrowone {
+margin-bottom: 10px;
+
+}
+
+.tutorlogo {
+    width: 50%;
+
+}
+
+.epiclogo {
+  width: 70%;
+
+}
+
+.uvalogo2 {
+  width: 50%;
 
 }
